@@ -10,6 +10,7 @@ rm master.zip
 cd /etc/usbmount
 rm usbmount.conf.orig
 cd /home/pi/monta-automatica-pendrive-master
-sudo cp usbmount.conf.orig //etc/usbmount
-cd
+cp usbmount.conf.orig //etc/usbmount
+cd /home/pi/monta-automatica-pendrive-master
+
 
