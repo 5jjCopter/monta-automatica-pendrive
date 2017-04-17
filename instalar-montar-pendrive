@@ -7,4 +7,10 @@ cd
 wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
 unzip master.zip
 rm master.zip
+cd /etc/usbmount
+rm usbmount.conf.orig
+cd
+cd monta-automatica-pendrive-master
+sudo cp usbmount.conf.orig //etc/usbmount
+
 
