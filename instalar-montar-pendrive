@@ -1,13 +1,14 @@
-cd
-sudo -s
-apt-get install usbmount
-cd
-apt-get install ntfs-3g
-cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
 cd /home/pi
 wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
 unzip master.zip
 rm master.zip
+sudo -s
+cd /home/pi/monta-automatica-pendrive-master
+./install usbmount
+
+./install ntfs-3g
+cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
+
 cd /etc/usbmount
 rm usbmount.conf.orig
 cd /home/pi/monta-automatica-pendrive-master
