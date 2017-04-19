@@ -1,1 +1,1 @@
-sudo udo apt-get -y install ntfs-3g
+sudo apt-get -y install ntfs-3g
