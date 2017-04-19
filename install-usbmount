@@ -1,1 +1,1 @@
-sudo udo apt-get -y install usbmount
+sudo apt-get -y install usbmount
