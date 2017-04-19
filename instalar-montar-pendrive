@@ -9,7 +9,7 @@ chmod 775 install-ntfs-3g
 cd /home/pi/monta-automatica-pendrive-master
 ./install-usbmount
 cd
-cd /home/pi
+cd /home/pi/monta-automatica-pendrive-master
 ./install-ntfs-3g
 cd /home/pi/monta-automatica-pendrive-master
 cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
