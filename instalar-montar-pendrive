@@ -4,9 +4,9 @@ unzip master.zip
 rm master.zip
 sudo -s
 cd /home/pi/monta-automatica-pendrive-master
-./install usbmount
+./install-usbmount
 
-./install ntfs-3g
+./install-ntfs-3g
 cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
 
 cd /etc/usbmount
