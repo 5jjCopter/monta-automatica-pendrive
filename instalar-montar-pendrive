@@ -1,7 +1,7 @@
-cd /home/pi
+cd 
 wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
-unzip master.zip
-rm master.zip
+sudo unzip master.zip
+sudo rm master.zip
 sudo -s
 cd /home/pi/monta-automatica-pendrive-master
 chmod 775 install-usbmount
