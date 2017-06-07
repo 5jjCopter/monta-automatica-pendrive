@@ -3,7 +3,7 @@ Description=video Flight Controller
 After=network.target user.slice
 
 [Service]
-ExecStart=/home/pi/grabar-video-mobil
+ExecStart=/home/pi/graba-video
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=always
 
