@@ -1,1 +1,7 @@
-sudo apt-get -y install usbmount
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo dpkg --configure -a
+
+sudo apt-get install usbmount -y --force-yes
