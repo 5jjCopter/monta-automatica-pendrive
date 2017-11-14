@@ -9,12 +9,9 @@ cd /etc/usbmount
 rm usbmount.conf.orig
 cd /home/pi/monta-automatica-pendrive-master
 cp usbmount.conf.orig /etc/usbmount
-cd /home/pi/monta-automatica-pendrive-master
-cp graba-video /home/pi
-cp graba-video.service /lib/systemd/system
 cd /home/pi
 rm -rf monta-automatica-pendrive-master
-sudo chmod 775 graba-video
+
 
 
 
