@@ -15,6 +15,6 @@ cp graba-video.service /lib/systemd/system
 cd /home/pi
 rm -rf monta-automatica-pendrive-master
 sudo chmod 775 graba-video
-sudo reboot
+
 
 
