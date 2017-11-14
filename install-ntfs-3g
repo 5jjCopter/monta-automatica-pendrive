@@ -1,6 +1,6 @@
-sudo apt-get update
+sudo apt-get update -y --force-yes
 
-sudo apt-get upgrade
+sudo apt-get upgrade -y --force-yes
 
 sudo dpkg --configure -a
 
