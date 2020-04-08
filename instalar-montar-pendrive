@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /home/pi/monta-automatica-pendrive-master
 
 chmod 775 install-usbmount
